@@ -1,3 +1,76 @@
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.first-section-container {
+  background-color: #1f2937;
+  padding: 16px;
+  height: 400px;
+}
+
+.first-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-logo-text {
+  font-size: 24PX;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.first-section-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.body-presentation {
+  width: 450px;
+}
+
+.body-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.description {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 15px;
+}
+
+.sign-up-button {
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #2a79f8;
+  color: white;
+  border: none;
+  padding: 8px 35px;
+  border-radius: 6px;
 }
