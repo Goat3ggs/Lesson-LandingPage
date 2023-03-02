@@ -132,7 +132,7 @@ a {
 }
 
 .fourth-section-container {
-  background-color: red;
+  background-color: #f9faf8;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -140,8 +140,33 @@ a {
 }
 
 .action-box {
-  background-color: #3882f6;
+  background-color: #3882F6;
   width: 800px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  border-radius: 10px;
+}
+
+.action-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.action-info {
+  color: #c1d1e9;
+  font-size: 19px;
+}
+
+.action-button {
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 8px 35px;
+  border-radius: 6px;
 }
