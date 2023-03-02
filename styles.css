@@ -74,3 +74,31 @@ a {
   padding: 8px 35px;
   border-radius: 6px;
 }
+
+.second-section-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+
+}
+
+.info-text  {
+  width: 150px;
+  text-align: center;
+}
